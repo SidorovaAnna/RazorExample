@@ -1,0 +1,11 @@
+﻿@model RazorExample.Models.Product
+
+@{
+    ViewBag.Title = "NameAndPrice";
+    Layout = "~/Views/_BasicLayout.cshtml";
+}
+
+<h2>Название и цена</h2>
+<div>Название товара: @Model.Name</div>
+<div>Стоимость товара: @Model.Price руб.</div>
+
